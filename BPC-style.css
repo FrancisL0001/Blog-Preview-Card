@@ -1,0 +1,114 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: rgb(245, 208, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px){
+    .container{
+        align-self: center;
+        background-color: white;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: solid 1px black;
+        height: 60vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.991);
+    }
+}
+
+@media (min-width: 600px){
+    .container{
+        align-self: center;
+        background-color: white;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: solid 1px black;
+        height: 60vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.991);
+    }
+}
+.wrapper{
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+h2{
+    background-color:rgb(245, 208, 78);
+    font-size: .6em;
+    padding: 5px;
+    font-weight: 700px;
+    border-radius: 2px;
+    margin-left: 5%;
+    align-self: flex-start;
+}
+
+.first{
+    opacity: .8;
+    align-self: flex-start;
+    margin-left: 5%;
+    font-size: .6em;
+}
+
+p{
+    opacity: .4;
+    align-self: flex-start;
+    font-size: .7em;
+    margin-left: 5%;
+}
+
+.logo{
+    width: 90%;
+    border-radius: 10px;
+    justify-self: flex-start;
+    margin-top: -1.1em;
+    margin-bottom: .5em;
+}
+
+h1{
+    font-size: 1.1em;
+    margin-left: 5%;
+    align-self: flex-start;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+.author img{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.author p{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: -10px;
+    opacity: 1;
+    font-size: .7em;
+}

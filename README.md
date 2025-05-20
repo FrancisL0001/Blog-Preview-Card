@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - [Solution](https://github.com/FrancisL0001/Blog-Preview-Card)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://blog-preview-card-seven-rose.vercel.app/)
 
 ## My process
 
